@@ -6,7 +6,7 @@ df_viagens{{}}
 
 * muda o valor da panilha de vigula para ponto*
 
-df_viagens{} str.replace{'.','.'}
+df_viagens{} str.replace{',','.'}
 
 * calcula* 
 df_viagens{}+df_viagens{} 
